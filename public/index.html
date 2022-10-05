@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dhitz Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Arima&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="dist/css/main.css" />
+  </head>
+  <body class="font-poppins bg-cblack" translate="no">
+    <!-- Navbar Start -->
+    <nav
+      class="_navbar w-full py-3 bg-cblack bg-opacity-70 fixed"
+      id="navbar"
+      style="backdrop-filter: blur(5px)"
+    >
+      <div class="container mx-auto px-4 flex justify-between text-white">
+        <div class="_navleft items-center flex flex-row gap-1">
+          <div class="_navbrand mr-8 text-cyellow">
+            <i
+              class="fa-solid fa-earth-asia h-8 w-8 hover:scale-105 hover:rotate-45 duration-300"
+            ></i>
+          </div>
+          <div class="_navitems hidden md:inline-block">
+            <a href="" class="_navlink _navactive">
+              <p><i class="fa-solid fa-house mr-2"></i>Home</p>
+            </a>
+            <a href="" class="_navlink">
+              <p><i class="fa-regular fa-folder-open mr-2"></i>Articles</p>
+            </a>
+            <a href="" class="_navlink">
+              <p><i class="fa-regular fa-comments mr-2"></i>Forums</p>
+            </a>
+          </div>
+        </div>
+        <div
+          class="_navright items-center flex flex-row gap-1 justify-end text-[14px]"
+        >
+          <a href="" class="px-3 py-2" title="Discord">
+            <i class="fa-brands fa-discord mr-3"></i>
+          </a>
+          <a href="JavaScript:void(0)" class="px-3 py-2">
+            <i class="fa-solid fa-circle-info mr-3"></i>
+          </a>
+          <a href="JavaScript:void(0)" class="px-3 py-2" id="sidebartoggel">
+            <i class="fa-solid fa-align-left mr-3"></i>
+          </a>
+
+          <button class="_button hidden md:inline-block">
+            <i class="fa-solid fa-right-to-bracket mr-2"></i> Login
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Sidebar Start -->
+    <div
+      class="_sidebar w-full h-screen fixed bg-black bg-opacity-40 z-50 top-0 left-0 hidden animate-sidebar-in"
+      id="sidebar"
+      style="backdrop-filter: blur(3px)"
+    >
+      <div
+        class="w-full md:w-[30%] h-screen bg-cblack p-5 text-white border-r border-cyellow"
+      >
+        <div class="_sidebarheader flex justify-between">
+          <h1 class="text-xl font-semibold">Menu</h1>
+          <a href="JavaScript:void(0)" class="text-xl" id="sidebarclose">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
+        </div>
+        <div class="_sidebaritem my-4 container mx-auto">
+          <a href="" class="_sidebarlink _navactive">
+            <p><i class="fa-solid fa-house mr-2"></i>Home</p>
+          </a>
+          <a href="" class="_sidebarlink">
+            <p><i class="fa-regular fa-folder-open mr-2"></i>Articles</p>
+          </a>
+          <a href="" class="_sidebarlink">
+            <p><i class="fa-regular fa-comments mr-2"></i>Forums</p>
+          </a>
+        </div>
+        <hr />
+        <div class="_sidebarfooter container my-4 mx-auto">
+          <button class="_button w-full">
+            <i class="fa-solid fa-right-to-bracket mr-2"></i> Login
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Sidebar End -->
+
+    <!-- Autotop Start -->
+    <!-- Autotop End -->
+
+    <!-- Herosection Start -->
+    <header class="w-full h-[100vh] flex justify-center items-center">
+      <div class="boxheader text-center px-3">
+        <h1 class="text-5xl md:text-7xl font-arima font-bold text-cyellow">
+          DHITZ BLOG
+        </h1>
+        <p class="md:text-lg text-sm text-slate-400">
+          "Tuntutlah ilmu di saat kamu miskin, ia akan menjadi
+          <span class="font-semibold text-cyellow">hartamu</span>. <br />Di saat
+          kamu kaya, ia akan menjadi
+          <span class="font-semibold text-cyellow">perhiasanmu</span>"
+        </p>
+        <button class="_button mt-5">Mulai Sekarang</button>
+      </div>
+    </header>
+    <!-- Herosection End -->
+    <!-- <hr class="text-cyellow" /> -->
+    <!-- Articles Start -->
+    <main class="p-10 md:p-20 text-white" id="article">
+      <article class="_article">
+        <h1 class="md:text-xl text-lg">
+          Tragedi Stadion Kanjuruhan Malang 1 Oktober 2022.
+        </h1>
+        <p class="text-sm font-thin text-slate-500">
+          Created by <span class="text-cyellow">Adhitya</span>
+        </p>
+        <p class="text-sm md:text-base my-3 text-slate-400">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          alias cumque quibusdam esse vel obcaecati exercitationem nostrum
+          libero, provident accusamus blanditiis voluptatum assumenda ipsa
+          dignissimos! Ex dolor quibusdam magni dolores?
+        </p>
+        <a href="" class="text-base text-cyellow hover:text-white"
+          >Read more &rArr;</a
+        >
+      </article>
+      <article class="_article">
+        <h1 class="md:text-xl text-lg">
+          Timnas Indonesia Makin Menggila Di Piala AFC.
+        </h1>
+        <p class="text-sm font-thin text-slate-500">
+          Created by <span class="text-cyellow">Adhitya</span>
+        </p>
+        <p class="text-sm md:text-base my-3 text-slate-400">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+          voluptatum perferendis fuga ducimus vero repellat amet dolor dolore
+          nobis laboriosam. Cum nisi enim illum ullam distinctio voluptatem
+          quia! Hic, nisi!
+        </p>
+        <a href="" class="text-base text-cyellow hover:text-white"
+          >Read more &rArr;</a
+        >
+      </article>
+      <article class="_article">
+        <h1 class="md:text-xl text-lg">
+          Tragedi Stadion Kanjuruhan Malang 1 Oktober 2022.
+        </h1>
+        <p class="text-sm font-thin text-slate-500">
+          Created by <span class="text-cyellow">Adhitya</span>
+        </p>
+        <p class="text-sm md:text-base my-3 text-slate-400">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, id
+          nobis consequatur praesentium, vero deserunt fuga dolore asperiores
+          sed quasi ratione temporibus ipsum? Itaque earum, corporis expedita
+          adipisci molestias et.
+        </p>
+        <a href="" class="text-base text-cyellow hover:text-white"
+          >Read more &rArr;</a
+        >
+      </article>
+    </main>
+    <!-- Articles End -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+      integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="dist/js/main.js"></script>
+  </body>
+</html>
